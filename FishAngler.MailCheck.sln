@@ -1,12 +1,17 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishAngler.MailCheck", "FishAngler.MailCheck\FishAngler.MailCheck.csproj", "{77C1B3BF-8867-45D2-AE15-8C113486A2C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FishAngler.MailCheck", "FishAngler.MailCheck\FishAngler.MailCheck.csproj", "{A6EFDB34-E542-4A86-9602-E4252534B2B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishAngler.MailCheck.Tests", "FishAngler.MailCheck.Tests\FishAngler.MailCheck.Tests.csproj", "{F9D80852-14EB-4735-98A9-7A2385999583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FishAngler.MailCheck.SampleApp", "FishAngler.MailCheck.SampleApp\FishAngler.MailCheck.SampleApp.csproj", "{01691269-7EE9-49A4-ACEB-3F721DF6F770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishAngler.MailCheck.SampleApp", "FishAngler.MailCheck.SampleApp\FishAngler.MailCheck.SampleApp.csproj", "{AEE4E313-B8D8-4F82-AC91-5F6A9BA7F8D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FishAngler.MailCheck.Tests", "FishAngler.MailCheck.Tests\FishAngler.MailCheck.Tests.csproj", "{73C8A5F2-FBA2-4665-B92A-67F364A50B3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C42D9CE3-EAF6-4834-8E62-9F3C4555D2B1}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish-client.yml = .github\workflows\publish-client.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,21 +19,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77C1B3BF-8867-45D2-AE15-8C113486A2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77C1B3BF-8867-45D2-AE15-8C113486A2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77C1B3BF-8867-45D2-AE15-8C113486A2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77C1B3BF-8867-45D2-AE15-8C113486A2C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9D80852-14EB-4735-98A9-7A2385999583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9D80852-14EB-4735-98A9-7A2385999583}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9D80852-14EB-4735-98A9-7A2385999583}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9D80852-14EB-4735-98A9-7A2385999583}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEE4E313-B8D8-4F82-AC91-5F6A9BA7F8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEE4E313-B8D8-4F82-AC91-5F6A9BA7F8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEE4E313-B8D8-4F82-AC91-5F6A9BA7F8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEE4E313-B8D8-4F82-AC91-5F6A9BA7F8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EFDB34-E542-4A86-9602-E4252534B2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EFDB34-E542-4A86-9602-E4252534B2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EFDB34-E542-4A86-9602-E4252534B2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EFDB34-E542-4A86-9602-E4252534B2B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01691269-7EE9-49A4-ACEB-3F721DF6F770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01691269-7EE9-49A4-ACEB-3F721DF6F770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01691269-7EE9-49A4-ACEB-3F721DF6F770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01691269-7EE9-49A4-ACEB-3F721DF6F770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C8A5F2-FBA2-4665-B92A-67F364A50B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C8A5F2-FBA2-4665-B92A-67F364A50B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C8A5F2-FBA2-4665-B92A-67F364A50B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C8A5F2-FBA2-4665-B92A-67F364A50B3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F32782D7-91EB-4472-979E-25009F109FFB}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
